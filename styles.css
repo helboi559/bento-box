@@ -1,12 +1,13 @@
 .container {
   display: grid;
+  grid-template-columns: repeat(3, 155px);
+  /* grid-template-rows: auto; */
   grid-template-areas:
     "fish fish vase-short"
     "map map vase-short"
     "vase-tall bamboo bamboo"
     "vase-tall bamboo bamboo"
     "vase-tall quadropus quadropus";
-  /* grid-gap: 3em; */
 }
 .bamboo {
   grid-area: bamboo;
