@@ -1,7 +1,8 @@
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 155px);
+  grid-template-columns: repeat(3, 140px);
   /* grid-template-rows: auto; */
+  justify-items: center;
   grid-template-areas:
     "fish fish vase-short"
     "map map vase-short"
@@ -15,7 +16,7 @@
 
 .vase-tall {
   grid-area: vase-tall;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .vase-short {
